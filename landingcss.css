@@ -10,14 +10,25 @@ body{
     border: 3px solid;
     border-radius: 10px;
     border-color: #3882f6;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 .images{
     display: flex;
 }
-
+.text{
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 106px;
+    height: 106px;
+}
+.subtext{
+    display: flex;
+    text-align: center;
+    margin-left:125px;
+    margin-right: 125px;
+}
 .ad{
     background-color: #3882f6;
     display: flex;
@@ -36,10 +47,11 @@ body{
 button{
     background-color: #3882f6;
     color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     flex-shrink: 0;
     flex-grow: 0;
     max-height: 25px;
+    max-width: 65px;
 }
 .content{
     display: flex;
@@ -47,8 +59,6 @@ button{
     text-align: center;
     align-items: center;
     flex-wrap: nowrap;
-    
-
 }
 .header{
     
@@ -56,6 +66,23 @@ button{
     display: flex;
     flex-direction: row;
     background-color: #1f2937;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.top-text{
+    display: flex;
+}
+.filler{
+    background-color: #e5e7eb;
+    margin: 30px;
+    padding: 75px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
 }
 .top{
     background-color: #1f2937;
@@ -66,6 +93,8 @@ button{
     color: #e5e7eb;
     gap: 16px;
     font-size: 16px;
+    margin-left: auto;
+    margin-right: 100px;
 }
 ul{
     list-style: none;
@@ -77,6 +106,7 @@ ul{
     padding-left: 200px;
     padding-right: 200px;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
 .footer{
     background-color: #1f2937;
@@ -86,5 +116,4 @@ ul{
     color: #e5e7eb;
     margin-top: auto;
     padding: 20px;
-    
 }
